@@ -1,0 +1,61 @@
+
+>------------------------------->--------------------------------------->
+  VAR_TO_GRAPH: 		>	List of current contributing	>
+				>		to ion pools		>
+>------------------------------->--------------------------------------->
+	GRPH_CHNL:		>	Graph channel			>
+>------------------------------->--------------------------------------->
+	1			>	GAIN of Channel			>
+	time<{ivr}            	>	Var Name for X-axis		>
+		12          	>	Number of Tic Marks		>
+		0.00        	>	Min Value of X			>
+		12.00       	>	Max Value of X			>
+		green        	>	Color of Range			>
+V[b31_leak_only....]<{svr}    	>	Var Name for Y-axis		>
+		6           	>	Number of Tic Marks		>
+		-60.00      	>	Min Value of Y			>
+		0.00        	>	Max Value of Y			>
+		green         	>	Color of RAnge			>
+>------------------------------->--------------------------------------->
+	GRPH_CHNL:		>	Graph channel			>
+>------------------------------->--------------------------------------->
+	1			>	GAIN of Channel			>
+	time<{ivr}            	>	Var Name for X-axis		>
+		12          	>	Number of Tic Marks		>
+		0.00        	>	Min Value of X			>
+		12.00       	>	Max Value of X			>
+		blue         	>	Color of Range			>
+	V[b31_axon....]<{svr} 	>	Var Name for Y-axis		>
+		4           	>	Number of Tic Marks		>
+		-90.00      	>	Min Value of Y			>
+		30.00       	>	Max Value of Y			>
+		blue          	>	Color of RAnge			>
+>------------------------------->--------------------------------------->
+	GRPH_CHNL:		>	Graph channel			>
+>------------------------------->--------------------------------------->
+	1			>	GAIN of Channel			>
+	time<{ivr}            	>	Var Name for X-axis		>
+		12          	>	Number of Tic Marks		>
+		0.00        	>	Min Value of X			>
+		12.00       	>	Max Value of X			>
+		white        	>	Color of Range			>
+Ivd[b31_del_rec.b31_leak_only...]<{ivr}	>	Var Name for Y-axis		>
+		5           	>	Number of Tic Marks		>
+		0.00        	>	Min Value of Y			>
+		25.00       	>	Max Value of Y			>
+		white         	>	Color of RAnge			>
+>------------------------------->--------------------------------------->
+	END:			>					>
+>------------------------------->--------------------------------------->
+
+>------------------------------->--------------------------------------->
+   VAR_TO_FILE: 		>	List of current contributing	>
+>				>		to ion pools		>
+>------------------------------->--------------------------------------->
+	V[b31_leak_only....]<{svr}	>	VAR name			>
+	V[b31_axon....]<{svr}  	>	VAR name			>
+>------------------------------->--------------------------------------->
+	END:			>					>
+>------------------------------->--------------------------------------->
+
+END:
