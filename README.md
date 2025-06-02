@@ -11,11 +11,11 @@ Make sure you have SNNAP installed and started according to the instructions at 
 
 After you load the fast simulation and press start you should see Fig. 11 reproduced:
 
-![screenshot1](./screenshot1.jpg)
+![screenshot1](./screenshot1.JPG)
 
 After you load the fast simulation and press start you should see Fig. 12 reproduced:
 
-![screenshot2](./screenshot1.jpg)
+![screenshot2](./screenshot1.JPG)
 
 These model files were supplied by Dr Avy Susswein.
 
